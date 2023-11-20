@@ -1,0 +1,10 @@
+x = 0: 2: 10;
+y = x + 1;
+plot(x,y);
+xlabel('x-axis');
+ylabel('y-axis');
+hold on;
+plot(x,y,'*');
+grid on;
+legend('Data points');
+title('My Plot');
